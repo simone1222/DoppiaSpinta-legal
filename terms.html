@@ -2,75 +2,220 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Terms of Service – DoppiaSpinta</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 800px;
-      margin: auto;
-      padding: 20px;
-      line-height: 1.6;
+    :root {
+      --bg: #0b1020;
+      --card: #121933;
+      --text: #e8ecf7;
+      --muted: #b7c0d8;
+      --accent: #7aa2ff;
+      --border: #26304f;
     }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 32px 20px 64px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+    }
+
     h1, h2 {
-      margin-top: 20px;
+      line-height: 1.25;
+      margin-top: 0;
+      color: #fff;
+    }
+
+    h1 { font-size: 2rem; margin-bottom: 8px; }
+    h2 { font-size: 1.35rem; margin-top: 32px; margin-bottom: 12px; }
+
+    p, li {
+      color: var(--muted);
+      font-size: 1rem;
+    }
+
+    strong {
+      color: var(--text);
+    }
+
+    a {
+      color: var(--accent);
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .meta {
+      color: var(--muted);
+      margin-bottom: 24px;
+    }
+
+    .note {
+      padding: 14px 16px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: rgba(255,255,255,0.03);
+      color: var(--muted);
+    }
+
+    .footer-links {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
     }
   </style>
 </head>
 <body>
+  <div class="container">
+    <div class="card">
+      <h1>Terms of Service – DoppiaSpinta</h1>
+      <p class="meta"><strong>Ultimo aggiornamento:</strong> Marzo 2026</p>
 
-<h1>Terms of Service – DoppiaSpinta</h1>
-<p><strong>Ultimo aggiornamento:</strong> Marzo 2026</p>
+      <p>
+        I presenti Termini di Servizio disciplinano l’accesso e l’utilizzo dell’app DoppiaSpinta e dei servizi collegati. Utilizzando l’app, l’utente dichiara di aver letto, compreso e accettato questi termini.
+      </p>
 
-<h2>1. Accettazione</h2>
-<p>Utilizzando DoppiaSpinta accetti i presenti termini di servizio.</p>
+      <h2>1. Titolare del servizio</h2>
+      <p>
+        DoppiaSpinta è un servizio fornito da <strong>Simone Parisi</strong>. Per comunicazioni o supporto:
+        <a href="mailto:lifemanager.app@outlook.com">lifemanager.app@outlook.com</a>.
+      </p>
 
-<h2>2. Descrizione del servizio</h2>
-<p>DoppiaSpinta è un'app fitness che fornisce:</p>
-<ul>
-  <li>Piani di allenamento</li>
-  <li>Piani nutrizionali</li>
-  <li>Funzionalità premium opzionali</li>
-</ul>
+      <h2>2. Descrizione del servizio</h2>
+      <p>
+        DoppiaSpinta è un’app orientata al fitness e al benessere che può includere funzionalità come:
+      </p>
+      <ul>
+        <li>piani di allenamento;</li>
+        <li>piani nutrizionali;</li>
+        <li>tracking dati personali e progressi;</li>
+        <li>funzionalità premium e contenuti aggiuntivi;</li>
+        <li>notifiche, promemoria e contenuti informativi.</li>
+      </ul>
 
-<h2>3. Account</h2>
-<p>L’utente è responsabile delle proprie credenziali. Non è consentito condividere account.</p>
+      <h2>3. Requisiti di utilizzo</h2>
+      <p>
+        L’utente si impegna a utilizzare l’app in modo lecito, corretto e conforme ai presenti termini. L’utente è responsabile delle informazioni fornite e dell’uso del proprio account.
+      </p>
 
-<h2>4. Abbonamenti</h2>
-<p>
-Alcune funzionalità sono disponibili tramite abbonamento premium.  
-Gli abbonamenti:
-</p>
-<ul>
-  <li>Si rinnovano automaticamente</li>
-  <li>Possono essere gestiti tramite store (Google Play / Apple App Store)</li>
-</ul>
+      <h2>4. Account utente</h2>
+      <ul>
+        <li>L’utente è responsabile della riservatezza delle proprie credenziali di accesso.</li>
+        <li>Non è consentito condividere l’account con altri soggetti.</li>
+        <li>L’utente deve fornire dati veritieri, aggiornati e completi.</li>
+        <li>DoppiaSpinta può sospendere o limitare l’accesso in caso di uso illecito, fraudolento o contrario ai presenti termini.</li>
+      </ul>
 
-<h2>5. Pagamenti</h2>
-<p>I pagamenti sono gestiti da piattaforme di terze parti (Google Play, Apple App Store).</p>
+      <h2>5. Abbonamenti e funzionalità premium</h2>
+      <p>
+        Alcune funzionalità dell’app possono essere disponibili solo tramite abbonamento premium o acquisto in-app.
+      </p>
+      <ul>
+        <li>I prezzi e le condizioni economiche sono indicati nello store o nell’app, ove applicabile.</li>
+        <li>Gli abbonamenti possono rinnovarsi automaticamente salvo disdetta effettuata dall’utente secondo le regole dello store utilizzato.</li>
+        <li>La gestione del rinnovo e della cancellazione dell’abbonamento avviene tramite Apple App Store o Google Play, salvo diversa indicazione.</li>
+      </ul>
 
-<h2>6. Cancellazione</h2>
-<p>
-L’utente può:
-</p>
-<ul>
-  <li>Cancellare l’abbonamento tramite lo store</li>
-  <li>Eliminare il proprio account dall’app</li>
-</ul>
+      <h2>6. Pagamenti</h2>
+      <p>
+        I pagamenti sono gestiti da fornitori terzi, inclusi Apple App Store e Google Play. DoppiaSpinta non gestisce direttamente l’intero flusso di pagamento né conserva i dati completi della carta utilizzata per l’acquisto.
+      </p>
 
-<h2>7. Limitazione di responsabilità</h2>
-<p>
-L’app è fornita “così com’è”. DoppiaSpinta non è responsabile per:
-</p>
-<ul>
-  <li>Uso improprio dei piani fitness</li>
-  <li>Risultati non garantiti</li>
-</ul>
+      <h2>7. Cancellazione account</h2>
+      <p>
+        L’utente può richiedere la cancellazione del proprio account secondo le modalità rese disponibili nell’app o tramite i canali di supporto indicati nella Privacy Policy e nelle eventuali pagine web dedicate.
+      </p>
+      <p>
+        La cancellazione dell’account non elimina automaticamente eventuali dati che debbano essere conservati per obblighi legali, fiscali, amministrativi o di sicurezza.
+      </p>
 
-<h2>8. Modifiche</h2>
-<p>I presenti termini possono essere aggiornati nel tempo.</p>
+      <h2>8. Uso consentito e divieti</h2>
+      <p>L’utente si impegna a non:</p>
+      <ul>
+        <li>utilizzare l’app per finalità illecite o abusive;</li>
+        <li>tentare di compromettere sicurezza, integrità o disponibilità del servizio;</li>
+        <li>aggirare limitazioni tecniche, controlli di accesso o modelli di abbonamento;</li>
+        <li>copiare, distribuire o sfruttare impropriamente contenuti, codice o materiali dell’app senza autorizzazione, salvo ove consentito dalla legge.</li>
+      </ul>
 
-<h2>9. Contatti</h2>
-<p>Per supporto: lifemanager.app@outlook.com</p>
+      <h2>9. Proprietà intellettuale</h2>
+      <p>
+        Salvo diversa indicazione, l’app, i contenuti, il design, il marchio, il software e i materiali collegati a DoppiaSpinta sono protetti dalla normativa applicabile in materia di proprietà intellettuale e restano nella titolarità del relativo proprietario.
+      </p>
 
+      <h2>10. Disclaimer fitness e salute</h2>
+      <p>
+        I contenuti presenti in DoppiaSpinta hanno finalità informative e organizzative e non costituiscono diagnosi, prescrizione medica o parere sanitario professionale.
+      </p>
+      <p>
+        Prima di iniziare programmi di allenamento, nutrizione o cambiamenti rilevanti nello stile di vita, l’utente dovrebbe valutare la propria condizione personale e, se necessario, consultare un medico o un professionista qualificato.
+      </p>
+      <p>
+        L’uso delle informazioni e dei programmi proposti avviene sotto la responsabilità dell’utente.
+      </p>
+
+      <h2>11. Limitazione di responsabilità</h2>
+      <p>
+        Nei limiti consentiti dalla legge, DoppiaSpinta è fornita “così com’è” e “come disponibile”, senza garanzie espresse o implicite di continuità, assenza di errori o raggiungimento di specifici risultati.
+      </p>
+      <p>
+        Nei limiti consentiti dalla legge, il titolare non sarà responsabile per danni indiretti, perdita di dati, interruzioni del servizio, aspettative di risultato non raggiunte o utilizzo improprio dell’app da parte dell’utente.
+      </p>
+
+      <h2>12. Modifiche del servizio e dei termini</h2>
+      <p>
+        DoppiaSpinta può aggiornare, modificare, sospendere o interrompere in tutto o in parte il servizio, così come modificare i presenti termini. Le modifiche saranno pubblicate su questa pagina con data di aggiornamento.
+      </p>
+
+      <h2>13. Risoluzione e sospensione</h2>
+      <p>
+        Il titolare può sospendere o interrompere l’accesso al servizio in caso di violazione dei presenti termini, uso illecito, rischi di sicurezza o altre ragioni legittime.
+      </p>
+
+      <h2>14. Legge applicabile e foro competente</h2>
+      <p>
+        I presenti termini sono disciplinati dalla legge italiana, salvo eventuali diritti inderogabili riconosciuti al consumatore dalla normativa applicabile.
+      </p>
+      <p>
+        Per eventuali controversie, salvo diversa previsione di legge, sarà competente il foro previsto dalla normativa applicabile.
+      </p>
+
+      <h2>15. Contatti</h2>
+      <p>
+        Per supporto o richieste relative ai presenti termini:
+        <a href="mailto:lifemanager.app@outlook.com">lifemanager.app@outlook.com</a>
+      </p>
+
+      <div class="note">
+        Nota pratica: questi termini vanno tenuti coerenti con il comportamento reale dell’app, con i flussi di abbonamento e con la privacy policy. Se prometti cancellazione account, poi devi averla davvero in app e via web.
+      </div>
+
+      <div class="footer-links">
+        <a href="./privacy.html">Privacy Policy</a>
+        <a href="./index.html">Home</a>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
